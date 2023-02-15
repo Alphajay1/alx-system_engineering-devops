@@ -1,1 +1,1 @@
-Create a script that prints hello user, where user is the current Linux user
+shell_variables_expansion_project

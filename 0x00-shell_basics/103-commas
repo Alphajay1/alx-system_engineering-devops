@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -map | sort -df | sed -e 's/, /,/g' -e '$a\ '
+ls -map | sort -df | sed -e '$a\ '

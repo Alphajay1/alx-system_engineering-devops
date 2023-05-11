@@ -29,3 +29,6 @@
 -Write a script that sets the mode of the file hello to this:
 
 -rwxr-x-wx
+## 10-mirror_permissions
+-Write a script that sets the mode of the file hello the same as olleh’s mode.
+-Note: the mode of olleh will not always be 664. Make sure your script works for any mode.

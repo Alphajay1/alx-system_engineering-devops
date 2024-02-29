@@ -96,6 +96,7 @@ WAN
 
 - Shows the PID and name of the program to which each socket belongs
 
+
 sylvain@ubuntu$ sudo ./4-TCP_and_UDP_ports
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
@@ -123,10 +124,12 @@ unix  2      [ ACC ]     STREAM     LISTENING     8559     835/dbus-daemon     /
 unix  2      [ ACC ]     STREAM     LISTENING     9190     1087/acpid          /var/run/acpid.socket
 unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /run/udev/control
 sylvain@ubuntu$
-5-is_the_host_on_the_network - a Bash script that pings an IP address passed as an argument. Requirements:
-Accepts a string as an argument
-Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
-Pings the IP 5 times
+
+## 5-is_the_host_on_the_network - a Bash script that pings an IP address passed as an argument. Requirements:
+- Accepts a string as an argument
+- Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+- Pings the IP 5 times
+
 sylvain@ubuntu$ ./5-is_the_host_on_the_network 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=63 time=12.9 ms
